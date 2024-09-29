@@ -218,3 +218,11 @@ for (let i = 0; i < nombresFor.length; i++){
     console.log(nombresFor[i]);
 }
 
+// Crear un array de 3 colores. Usar shift para eliminar el primer color y luego unshift para añadir.
+
+const color = ["Rojo", "Amarillo", "Azul"];
+
+color.shift("Rojo");
+console.log(color)
+color.unshift("Verde")
+console.log(color)
